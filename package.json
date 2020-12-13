@@ -1,0 +1,27 @@
+{
+  "name": "emailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "validator": "^13.5.2",
+    "xss-filters": "^1.2.7"
+  }
+}
